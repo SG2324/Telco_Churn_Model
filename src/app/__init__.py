@@ -1,3 +1,3 @@
-from .__pycache__.app import app
+from .app import app
 
 __all__ = ["app"]

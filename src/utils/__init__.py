@@ -1,4 +1,4 @@
-from .__pycache__.config import (
+from .config import (
     PROJECT_ROOT,
     RAW_DATA_PATH,
     PROCESSED_DATA_DIR,
@@ -10,7 +10,7 @@ from .__pycache__.config import (
     TARGET_COLUMN,
     MLFLOW_EXPERIMENT_NAME
 )
-from .__pycache__.logger import get_logger
+from .logger import get_logger
 
 __all__ = [
     "PROJECT_ROOT",

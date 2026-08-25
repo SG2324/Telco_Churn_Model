@@ -1,3 +1,3 @@
-from .__pycache__.inference import predict
+from .inference import predict
 
 __all__ = ["predict"]
